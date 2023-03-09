@@ -1,4 +1,4 @@
-# App-McDonald-s
+# App-McDonalds
 Proyecto realizado como TP para la universidad
 
 Front-End desarrollado por:  
