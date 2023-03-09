@@ -1,0 +1,82 @@
+@import url(//db.onlinewebfonts.com/c/827d075b1538829cc0db75696e4d5fa2?family=Speedee);
+
+/* .boton-volver {
+  font-family: "Speedee", arial;
+  color: #fff;
+  transition: ease-in-out 0.125s;
+  cursor: pointer;
+  font-size: 16px;
+  color: #ffc800;
+  margin-left: 0.2rem;
+} */
+.boton-volver:hover {
+  font-family: "Speedee", arial;
+  color: #ffe600;
+  margin-left: 0.5rem;
+}
+.carrito_title {
+  font-size: 2rem;
+  text-align: end;
+}
+.carrito__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.lista-carrito {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.botones-inferiores {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  z-index: 1;
+  justify-content: center;
+}
+
+.boton-pagar {
+  background-color: rgb(255 199 44);
+  height: 65px;
+  width: 100%;
+}
+
+.boton-volver {
+  background-color: white;
+  height: 65px;
+  width: 100%;
+}
+
+.precio-total {
+  position: fixed;
+  padding: 0.25rem 1rem;
+  width: 100%;
+  background: #f80713;
+  color: white;
+  bottom: 65px;
+  right: 0;
+  font-size: larger;
+}
+
+.precio-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.carrito__cards__main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
